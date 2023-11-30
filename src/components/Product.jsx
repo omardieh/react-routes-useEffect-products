@@ -5,9 +5,6 @@ function Product() {
 
   useEffect(() => {
     console.log("useEffect is running");
-    return () => {
-      console.log("component is unmounting");
-    };
   }, []);
 
   return <div>Hello from Product component</div>;
